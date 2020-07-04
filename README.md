@@ -30,7 +30,7 @@ Check out the Fabric-samples from the hyperledger repository and checkout approp
 
 Copy the folder contents from <fabric-samples/basic-network/crypto-config> to the SDK path "(/artifacts/crypto)" :
 ```sh
-rsync -av fabric-samples/basic-network/crypto-config/ fabric-sdk-nestjs/artifacts/crypto/
+rsync -av --delete fabric-samples/basic-network/crypto-config/ fabric-sdk-nestjs/artifacts/crypto/
 ```
 
 ###### Change the [config.json](/config/local/config.json) values & [network.yaml](/config/local/network.yaml)
